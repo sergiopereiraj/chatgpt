@@ -26,7 +26,7 @@ python chatgpt.py
 
 1. Debes tener instalado Docker Desktop.
 2. Clonar este repositorio
-3. Desde la terminal, en la carpeta del proyecto ejecutar
+3. Desde la terminal, en la carpeta del proyecto ejecutar:
 ```
 docker build -t chatgpt .
 ```
