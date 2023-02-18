@@ -1,7 +1,8 @@
 import openai
 import os
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
+#openai.api_key = "you key"
+openai.api_key = os.environ["OPENAI_API_KEY"] #If you occupy locally, comment this line
 
 while True:
 
