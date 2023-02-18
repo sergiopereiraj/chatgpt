@@ -5,35 +5,36 @@ Ademas, si quieres ir un paso mas allá, este se encuentra Dockerizado, con la i
 
 ### Para su uso debes tener cuenta en openai, y obtener key
 
-### Si lo usas de modo local debes
+### Modo local debes
 
 1. Tener instalado Python
 2. Clonar este repositorio
-3. Asegurarte de tener instalado el gestor pip
-4. En tu terminal ejecutar (si estas desde windowns)
+3. Asegurarte de tener instalado el gestor pip (python)
+4. En tu terminal ejecutar (si estas desde windowns):
 ```
 pip install openai
 ```
-5. Des comenta la línea 4 y agrega tu key entre “”. Comenta con # línea 5 
-6. En la terminal, desde la carpeta que contenga este proyecto ejecutar 
+5. Des comenta la línea 4 y agrega tu key entre “”. 
+6. Comenta con # línea 5 
+7. En la terminal, desde la carpeta que contenga este proyecto ejecutar:
 ```
 python chatgpt.py
 ```
 7. Interactúa desde tu terminal con el chatgpt
 
-### Para modo Dockerizado:
+### Modo Dockerizado:
 
-#### Debes tener instalado Docker Desktop.
-1. Clonar este repositorio
-2. Desde la terminal, en la carpeta del proyecto ejecutar
+1. Debes tener instalado Docker Desktop.
+2. Clonar este repositorio
+3. Desde la terminal, en la carpeta del proyecto ejecutar
 ```
 docker build -t chatgpt .
 ```
 Esto creara la imagen del proyecto
-3. En su Docker desktop aplicar “run” a su imagen, colocar en variable de entorno:
+4. En su Docker desktop aplicar “run” a su imagen, colocar en variable de entorno:
 ###### variable: “OPENAI_API_KEY”, value : “you key”(obtenida desde pagina)
-4. Desde la terminal de tu contenedor ejecuta:
+5. Desde la terminal de tu contenedor ejecuta:
 ```
 python chatgpt.py
 ```
-5. Interactúa con tu terminal
+6. Interactúa con tu terminal
