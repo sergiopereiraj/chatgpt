@@ -7,8 +7,8 @@ Ademas, si quieres ir un paso mas allá, este se encuentra Dockerizado, con la i
 
 ### Si lo usas de modo local debes
 
-1. Clonar este repositorio
-2.Tener instalado Python
+1. Tener instalado Python
+2. Clonar este repositorio
 3. Asegurarte de tener instalado el gestor pip
 4. En tu terminal ejecutar (si estas desde windowns)
 ```
