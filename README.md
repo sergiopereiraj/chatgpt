@@ -1,4 +1,4 @@
-# chatgpt local y dockerizado
+# ChatGPT: local y/o dockerizado
 
 Este repositorio contiene el código para utilizar chatgpt de modo local en tu terminal.
 Ademas, si quieres ir un paso mas allá, este se encuentra Dockerizado, con la idea que puedas usarlo desde un contenedor.
